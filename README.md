@@ -3,9 +3,9 @@
  > By: Jiang Meng & Cheng Haoguo<br>
  > Create date: 2022-11-05
 
-YOU can see some details when click the following link:
+YOU can see some details when click the following link:<br>
 [Our streamlit app](https://cao-guo-final-project-app-weather-app-zofvpp.streamlitapp.com/)<br>
-[GitHubPages](https://github.com/Cao-guo/final_project_app)<br>
+[GitHubPages](https://github.com/jiang-meng/weather-app_finalproject)<br>
 [Slides](https://github.com/jiang-meng/weather-app_finalproject/blob/main/Team-3.pdf)<br>
 [Deployed python file is](https://github.com/jiang-meng/weather-app_finalproject/blob/main/weather-app.py)<br>
 
@@ -54,13 +54,13 @@ The **tab blocks** show the 9 variables that affect rainfall and the relationshi
 **Sidebar** which users can enter the names of different areas to see statistics on rainfall at different times of the year and whether it will rain today or tomorrow.<br>
 
 ## Explanation of Data App.
- #### In the map, you can go over the average rainfall of each city in Australia less than the value we select in the slider.
-	- In conclusion, we can see that the southeast coast of Australia have a higher rainfall average.
- #### We show how the precipitation in Australia for years and for months in these two histograms. 
-	- In conclusion ,we can say that the average rainfall of 2007 is higher than the others, and it rains more in Novermber to February.
- #### Next, we set eight tab blocks to show the factors relate to whether rain will fall tomorrow. 
-    We select the data which match tomorrow rain is TURE, then we use the data to make boxplot to get the overview of this factor. In the min and max Temp, Pressure, Humdity, we also set dot plot, which shows the difference of data between tomorrow rain is TRUE and FALSE.
-	- We set the conclusion in a text box,  which shows that it has a high chance to rain tomorrow when:  
+ ### In the map, you can go over the average rainfall of each city in Australia less than the value we select in the slider.
+  > In conclusion, we can see that the southeast coast of Australia have a higher rainfall average.
+ ### We show how the precipitation in Australia for years and for months in these two histograms. 
+  > In conclusion ,we can say that the average rainfall of 2007 is higher than the others, and it rains more in Novermber to February.
+ ### Next, we set eight tab blocks to show the factors relate to whether rain will fall tomorrow. 
+  > We select the data which match tomorrow rain is TURE, then we use the data to make boxplot to get the overview of this factor. In the min and max Temp, Pressure, Humdity, we also set dot plot, which shows the difference of data between tomorrow rain is TRUE and FALSE.
+   + We set the conclusion in a text box,  which shows that it has a high chance to rain tomorrow when:  
 	• It rained today 
 	• The presure is low
 	• The humidity is high 
