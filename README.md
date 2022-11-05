@@ -3,7 +3,7 @@
  > By: Jiang Meng & Cheng Haoguo<br>
  > Create date: 2022-11-05
 
-YOU can see some details when click the following link:<br>
+YOU can see some details when clicking the following link:<br>
 [Our streamlit app](https://cao-guo-final-project-app-weather-app-zofvpp.streamlitapp.com/)<br>
 [GitHubPages](https://github.com/jiang-meng/weather-app_finalproject)<br>
 [Slides](https://github.com/jiang-meng/weather-app_finalproject/blob/main/Team-3.pdf)<br>
@@ -17,7 +17,7 @@ YOU can see some details when click the following link:<br>
  You can get more information in the following part!
 
 ## Dataset Description
-The csv file is here: (https://github.com/jiang-meng/weather-app_finalproject/blob/main/weatherAUS.csv)
+The csv file is here: https://github.com/jiang-meng/weather-app_finalproject/blob/main/weatherAUS.csv
  + Location：The common name of the location of the weather station.
  + Lat and lon: The latitude and longitude of the location.
  + MinTemp: The minimum temperature in degrees celsius.
@@ -48,18 +48,18 @@ The csv file is here: (https://github.com/jiang-meng/weather-app_finalproject/bl
 - Randomly select 50,000 data.
 
 ## Main functions of the streamlit page.
-A **Map** of regional rainfall in Australia, with a slider which filtered for average rainfall.<br>
-**Histograms** of rainfall by year and by month<br>
-The **tab blocks** show the 9 variables that affect rainfall and the relationship between the variable and the forecast for tomorrow's rainfall in different tabs.<br>
-**Sidebar** which users can enter the names of different areas to see statistics on rainfall at different times of the year and whether it will rain today or tomorrow.<br>
+1. A **Map** of regional rainfall in Australia, with a slider which filtered for average rainfall.<br>
+2. **Histograms** of rainfall by year and by month<br>
+3. The **tab blocks** show the 9 variables that affect rainfall and the relationship between the variable and the forecast for tomorrow's rainfall in different tabs.<br>
+4. **Sidebar** which users can enter the names of different areas to see statistics on rainfall at different times of the year and whether it will rain today or tomorrow.<br>
 
 ## Explanation of Data App.
- ### In the map, you can go over the average rainfall of each city in Australia less than the value we select in the slider.
-  > In conclusion, we can see that the southeast coast of Australia have a higher rainfall average.
- ### We show how the precipitation in Australia for years and for months in these two histograms. 
-  > In conclusion ,we can say that the average rainfall of 2007 is higher than the others, and it rains more in Novermber to February.
- ### Next, we set eight tab blocks to show the factors relate to whether rain will fall tomorrow. 
-  > We select the data which match tomorrow rain is TURE, then we use the data to make boxplot to get the overview of this factor. In the min and max Temp, Pressure, Humdity, we also set dot plot, which shows the difference of data between tomorrow rain is TRUE and FALSE.
+ #### In the map, you can go over the average rainfall of each city in Australia less than the value we select in the slider.
+  In conclusion, we can see that the southeast coast of Australia have a higher rainfall average.
+ #### We show how the precipitation in Australia for years and for months in these two histograms. 
+   In conclusion ,we can say that the average rainfall of 2007 is higher than the others, and it rains more in Novermber to February.
+ #### Next, we set eight tab blocks to show the factors relate to whether rain will fall tomorrow. 
+   We select the data which match tomorrow rain is TURE, then we use the data to make boxplot to get the overview of this factor. In the min and max Temp, Pressure, Humdity, we also set dot plot, which shows the difference of data between tomorrow rain is TRUE and FALSE.
    + We set the conclusion in a text box,  which shows that it has a high chance to rain tomorrow when:  
 	• It rained today 
 	• The presure is low
