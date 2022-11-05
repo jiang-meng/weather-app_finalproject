@@ -1,12 +1,12 @@
 # Streaming Media Platform Data App (EDA)
  **Team 3 - MISY225 Final Project**
- > By: Jiang Meng & Cheng Haoguo
+ > By: Jiang Meng & Cheng Haoguo<br>
  > Create date: 2022-11-05
 
-[Our streamlit app](https://cao-guo-final-project-app-weather-app-zofvpp.streamlitapp.com/)
-[GitHubPages](https://github.com/Cao-guo/final_project_app)
-[Slides](D:\study\misyexercise\repos\weather-app_finalproject\Team-3.pptx)
-[Deployed python file is](D:\study\misyexercise\repos\weather-app_finalproject\weather-app.py)
+[Our streamlit app](https://cao-guo-final-project-app-weather-app-zofvpp.streamlitapp.com/)<br>
+[GitHubPages](https://github.com/Cao-guo/final_project_app)<br>
+[Slides](https://github.com/jiang-meng/weather-app_finalproject/blob/main/Team-3.pdf)<br>
+[Deployed python file is](https://github.com/jiang-meng/weather-app_finalproject/blob/main/weather-app.py)<br>
 
 
 ## Project Introduction
@@ -14,6 +14,7 @@
  We select and analyze the data and give the conclusion of our project. You can get more information in the following part!
 
 ## Dataset Description
+The csv file is here: (https://github.com/jiang-meng/weather-app_finalproject/blob/main/weatherAUS.csv)
  + Location：The common name of the location of the weather station.
  + Lat and lon: The latitude and longitude of the location.
  + MinTemp: The minimum temperature in degrees celsius.
