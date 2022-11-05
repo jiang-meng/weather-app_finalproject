@@ -48,10 +48,10 @@ The csv file is here: (https://github.com/jiang-meng/weather-app_finalproject/bl
 - Randomly select 50,000 data.
 
 ## Main functions of the streamlit page.
-A *Map* of regional rainfall in Australia, with a slider which filtered for average rainfall.
-*Histograms* of rainfall by year and by month
-The *tab blocks* show the 9 variables that affect rainfall and the relationship between the variable and the forecast for tomorrow's rainfall in different tabs.
-*Sidebar* which users can enter the names of different areas to see statistics on rainfall at different times of the year and whether it will rain today or tomorrow.
+A **Map** of regional rainfall in Australia, with a slider which filtered for average rainfall.<br>
+**Histograms** of rainfall by year and by month<br>
+The **tab blocks** show the 9 variables that affect rainfall and the relationship between the variable and the forecast for tomorrow's rainfall in different tabs.<br>
+**Sidebar** which users can enter the names of different areas to see statistics on rainfall at different times of the year and whether it will rain today or tomorrow.<br>
 
 ## Explanation of Data App.
  #### In the map, you can go over the average rainfall of each city in Australia less than the value we select in the slider.
